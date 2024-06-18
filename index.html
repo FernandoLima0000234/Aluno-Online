@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal do Aluno - Técnico em Informática</title>
+    <link rel="stylesheet" href="public/css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Portal do Aluno - Técnico em Informática</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="disciplinas.html">Disciplinas</a></li>
+                <li><a href="index.html">Perfil</a></li>
+                <li><a href="login.html">Sair</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="profile">
+            <h2>Perfil do Aluno</h2>
+            <div id="student-info"></div>
+        </section>
+        <section id="courses">
+            <h2>Disciplinas</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Código</th>
+                        <th>Disciplina</th>
+                        <th>Professor</th>
+                        <th>Horário</th>
+                        <th>Nota</th>
+                    </tr>
+                </thead>
+                <tbody id="course-list"></tbody>
+            </table>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Portal do Aluno. Todos os direitos reservados.</p>
+    </footer>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
